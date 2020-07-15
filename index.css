@@ -63,7 +63,7 @@ h1{
     display: inline-block;
 }
 
-img{
+.image-column img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -96,3 +96,37 @@ img{
     text-align: center;
     color:#EDEAE6;
 }
+
+.second-image img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+}
+
+.second-image p{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+b {
+    font-weight: bold;
+}
+
+.third-image img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+}
+
+.third-image p{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
