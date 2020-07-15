@@ -33,6 +33,10 @@ html{
     padding:3%;
 }
 
+.navbar:hover{
+    background-color: blue;
+}
+
 nav button{
     border-radius: 25%;
     padding: 10px;
@@ -47,6 +51,10 @@ nav button{
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 40px;
+}
+
+h1:hover{
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
 }
 
 #plan{
@@ -70,6 +78,10 @@ h1{
     width: 300px;
     height: 300px;
     padding: 4%;
+}
+
+.image-column img:active{
+    background: rebeccapurple;
 }
 
 .text-column{
