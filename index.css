@@ -49,8 +49,10 @@ nav button{
 }
 
 h1{
-    font-family: 'Chelsea Market', cursive;
-    font-size: 40px;
+    font-family: 'Chelsea Market',regular 400;
+    font-size: 60px;
+    margin-left: auto;
+    vertical-align: top;
 }
 
 h1:hover{
@@ -75,13 +77,13 @@ h1:hover{
 
 .image-column img{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     padding: 4%;
 }
 
 .image-column img:active{
-    background: rebeccapurple;
+    background: purple;
 }
 
 .text-column{
@@ -89,8 +91,8 @@ h1:hover{
     position: absolute;
     margin: auto;
     text-align: center;
-    padding: 10%;
-    font-size: 16px;
+    padding: 5%;
+    font-size: 20px;
 }
 
 .text-column p{
