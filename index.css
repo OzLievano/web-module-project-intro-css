@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar{
+    width:100%;
+    text-align: center;
+    padding:3%;
+}
+
+.navbar:hover{
+    background-color: blue;
+}
+
+nav button{
+    border-radius: 25%;
+    padding: 10px;
+    justify-content: center;
+    width: 200px;
+    color:white;
+    line-height: 80px;
+    font-size: 16px;
+    margin: 5em;
+}
+
+h1{
+    font-family: 'Chelsea Market',regular 400;
+    font-size: 60px;
+    margin-left: auto;
+    vertical-align: top;
+}
+
+h1:hover{
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+}
+
+#plan{
+    background-color: #FF764E;
+}
+
+#learn{
+    background-color: #5ED3EB;
+}
+
+#involved{
+    background-color: #FFCD69;
+}
+
+.image-container{
+    display: inline-block;
+}
+
+.image-column img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 4%;
+}
+
+.image-column img:active{
+    background: purple;
+}
+
+.text-column{
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+}
+
+.text-column p{
+    text-align:center;
+    padding:5px;
+}
+
+#line-two{
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.main-body{
+    background-color: #DDB9A3;
+    margin:3%;
+    padding:3%;
+    text-align: center;
+    color:#EDEAE6;
+}
+
+.second-image img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+}
+
+.second-image p{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 3%;
+}
+
+b {
+    font-weight: bold;
+}
+
+.third-image img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+}
+
+.third-image p{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 20%;
+    padding:3%;
+}
+
+.footbar{
+    width:100%;
+    text-align: center;
+    font-size:20px;
+    background-color:#F0D0B4;
+    margin-left: 3%;
+}
+
+.footbar img{
+    width:100%;
+    height: 300px;
+}
+
